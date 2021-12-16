@@ -1,4 +1,3 @@
-
 body {
   margin: 0;
   padding: 0;
@@ -34,6 +33,7 @@ h1, h6 {
 body, html {
   font-family: "Roboto", sans-serif;
 }
+
 .main__header h1 {
   text-align: center;
 }
@@ -62,15 +62,19 @@ footer h3 {
 footer a {
   color: white;
 }
+
 footer ul {
   list-style-type: none;
 }
+
 footer ul li {
   padding: 5px 0 5px 0;
 }
+
 footer ul .fa-utensils {
   margin-right: 12px;
 }
+
 footer ul .fa-hands-helping {
   margin-right: 5px;
 }
@@ -89,14 +93,14 @@ footer ul .fa-hands-helping {
   width: 100%;
   padding: 40px 0;
 }
+
 .about h2 {
   font-weight: bold;
 }
+
 .about p {
   color: #4d4d4d;
 }
-
-
 
 .number {
   display: flex;
@@ -111,32 +115,27 @@ footer ul .fa-hands-helping {
   position: relative;
   right: 10px;
 }
+
 @media screen and (min-width: 768px) {
   .number {
     right: 0;
     top: -15px;
   }
 }
-
-
-
-
-
 @media screen and (min-width: 768px) {
   .restaurant__title {
     width: 100%;
   }
 }
-
 .restaurant__title h3 {
   padding: 30px 0px 0px 10px;
 }
+
 @media screen and (min-width: 768px) {
   .restaurant__title h3 {
     text-align: center;
   }
 }
-
 .card {
   border-radius: 25px;
   box-shadow: 4px 4px 6px #aaa;
@@ -144,12 +143,12 @@ footer ul .fa-hands-helping {
   position: relative;
   background: #fff;
 }
+
 @media screen and (min-width: 768px) {
   .card {
     width: 40%;
   }
 }
-
 .card img {
   object-fit: cover;
   border-top-left-radius: 25px;
@@ -164,6 +163,7 @@ footer ul .fa-hands-helping {
   display: flex;
   flex-direction: column;
 }
+
 @media screen and (min-width: 768px) {
   .main__restaurant {
     display: flex;
@@ -176,7 +176,6 @@ footer ul .fa-hands-helping {
     padding: 0 20%;
   }
 }
-
 .heart {
   display: flex;
   justify-content: space-between;
@@ -220,6 +219,7 @@ footer ul .fa-hands-helping {
   top: 40%;
   left: 20%;
 }
+
 @media screen and (min-width: 768px) {
   .loader__food {
     top: 40%;
@@ -232,7 +232,6 @@ footer ul .fa-hands-helping {
     left: 45%;
   }
 }
-
 .loader__food span {
   display: inline-block;
   width: 5px;
@@ -295,34 +294,33 @@ footer ul .fa-hands-helping {
     justify-content: space-around;
   }
 }
-
 .starter {
   animation: fadein 3s ease-in-out;
 }
+
 @media screen and (min-width: 1280px) {
   .starter {
     width: 400px;
   }
 }
-
 .dish {
   animation: fadein 6s ease-in-out;
 }
+
 @media screen and (min-width: 1280px) {
   .dish {
     width: 400px;
   }
 }
-
 .dessert {
   animation: fadein 9s ease-in-out;
 }
+
 @media screen and (min-width: 1280px) {
   .dessert {
     width: 400px;
   }
 }
-
 .cross {
   display: flex;
   justify-content: center;
@@ -339,6 +337,7 @@ footer ul .fa-hands-helping {
   opacity: 0;
   transition: transform 330ms ease-in-out;
 }
+
 .cross .fa-check-circle {
   color: #fff;
   transition: transform 500ms ease-in-out;
@@ -378,13 +377,12 @@ footer ul .fa-hands-helping {
   box-shadow: 4px 4px 6px #aaa;
   cursor: pointer;
 }
+
 .btn__about button:hover {
   background-color: #ae80e5;
   background-blend-mode: lighten;
   box-shadow: 4px 4px 6px #000;
 }
-
-
 
 .new {
   color: #008766;
@@ -400,6 +398,7 @@ footer ul .fa-hands-helping {
   color: black;
   cursor: pointer;
 }
+
 .fill:hover {
   animation: fill 0.3s ease-in-out;
   display: inline-block;
@@ -435,12 +434,12 @@ footer ul .fa-hands-helping {
   align-items: center;
   padding: 10px;
 }
+
 @media screen and (min-width: 1280px) {
   .menu__title {
     padding: 10px 90px;
   }
 }
-
 .meals {
   background-color: #fff;
   border-radius: 15px;
@@ -454,13 +453,16 @@ footer ul .fa-hands-helping {
   overflow: hidden;
   transition: padding-right 450ms ease-in-out;
 }
+
 .meals:hover {
   padding-right: 75px;
 }
+
 .meals:hover .cross {
   opacity: 1;
   transform: translate(-50px);
 }
+
 .meals:hover .fa-check-circle {
   transform: rotate(360deg);
 }
@@ -478,12 +480,12 @@ footer ul .fa-hands-helping {
   text-overflow: ellipsis;
   overflow: hidden;
 }
+
 @media screen and (min-width: 1280px) {
   .last__line p {
     padding-right: 20px;
   }
 }
-
 .last__line span {
   margin-right: 5px;
 }
@@ -511,6 +513,7 @@ footer ul .fa-hands-helping {
   padding: 20px;
   width: 50%;
 }
+
 @media screen and (min-width: 1280px) {
   .btn__order button {
     width: 25%;
@@ -530,9 +533,11 @@ footer ul .fa-hands-helping {
 .operation {
   margin-bottom: 50px;
 }
+
 .operation h2 {
   padding: 20px;
 }
+
 @media screen and (min-width: 1440px) {
   .operation h2 {
     text-align: center;
@@ -541,6 +546,7 @@ footer ul .fa-hands-helping {
 .operation__steps {
   list-style-type: none;
 }
+
 @media screen and (min-width: 768px) {
   .operation__steps {
     flex-wrap: wrap;
@@ -562,16 +568,20 @@ footer ul .fa-hands-helping {
   box-shadow: 1px 2px 8px 2px #c4c4c4;
   background-color: #f5f5f5;
 }
+
 .operation__steps li p {
   font-weight: 500;
   margin-left: 20px;
 }
+
 .operation__steps li:hover {
   background: #f2eafb;
 }
+
 .operation__steps li:hover .fas {
   color: #9356dc;
 }
+
 .operation__steps--number {
   background-color: #9356dc;
   color: white;
@@ -579,8 +589,11 @@ footer ul .fa-hands-helping {
   padding: 5px 9px;
   margin-left: -40px;
 }
+
 .operation__steps--icon {
   color: grey;
   font-size: 1.2rem;
   margin-left: 20px;
 }
+
+/*# sourceMappingURL=style.css.map */
